@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Lucida Sans Regular';
+    background: linear-gradient(0deg, #482559 0%, #2c0740 2%, #3182ad 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#title {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 3rem;
+    color: #ffffff;
+    font-family:'Arial Narrow Bold';
+}
+
+.questions {
+    margin: 2rem auto;
+    width: 50%;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#question {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.option {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background: #3e3e3e;
+    border-radius: 5rem;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.option:hover {
+    background: #3e3e3ed7;
+    color: #000000;
+}
+
+ol {
+    position: relative;
+    padding: 0 1.5rem;
+    color: #333;
+}
+
+span {
+    display: inline-block;
+    padding: 0.5rem 10rem;
+    border-radius: 1rem;
+    background: #33cccc;
+    color: #fff;
+}
+
+#answer {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+#stat {
+    margin-top: 1.5rem;
+    color: #333;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 2rem;
+    color: #fff;
+    background: #7911a8;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background: #9213d6;
+}
+
+#scoreboard, #answerBank {
+    width: 25rem;
+    background: rgba(230, 230, 250, 0.9);
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+    display: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#score-title {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#score-btn, #check-answer {
+    margin-top: 1.5rem;
+}
+
+#score {
+    font-size: 2.5rem;
+    color: #7911a8;
+}
+
+#answerBank li {
+    text-align: left;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+#answers {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    color: #333;
+}
